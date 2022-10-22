@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Getting Started with Blinq Coding Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Below are instructions on how to build/use/test the challenge.
+
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
+
+# To use this project, you will need to install NodeJS.
+
+# Make sure you have run `npm install` before using any of these scripts below.
 
 ## Available Scripts
 
-In the project directory, you can run:
+To run this app, In the project directory, you can run:
 
 ### `npm start`
 

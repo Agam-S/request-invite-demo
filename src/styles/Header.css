@@ -1,0 +1,30 @@
+.header {
+  background-color: rgb(250, 250, 250);
+  border-bottom: 2px solid palevioletred;
+  height: 50px;
+  width: 100%;
+  left: 0px;
+  position: fixed;
+  align-items: center;
+  top: 10px;
+}
+.header-link {
+  text-decoration: none;
+  color: palevioletred;
+  font-size: x-large;
+  font-family: "Signika", sans-serif;
+  text-align: left;
+  margin-left: 160px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-link {
+    margin-left: 130px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .header-link {
+    margin-left: 100px;
+  }
+}

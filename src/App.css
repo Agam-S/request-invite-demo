@@ -1,38 +1,101 @@
-.App {
+.pageContent {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30vh;
+  text-align: center;
+}
+.pageSection {
+  display: flex;
+  flex-direction: column;
+  max-width: 575px;
+  padding: 1.6rem;
+  text-align: center;
+}
+.h1Text {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: "Roboto Mono", monospace;
+}
+
+.p1Text {
+  font-family: "Roboto Mono", monospace;
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem 0px 2rem 0px;
+}
+
+.button,
+.submit {
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(250, 250, 250);
+  border: 2px solid palevioletred !important;
+  color: rgb(33, 33, 33);
+  display: block;
+  font-weight: 700;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  height: 54px;
+}
+.button:hover,
+.submit:hover {
+  background-color: palevioletred;
+  color: rgb(250, 250, 250);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 575px;
+  padding: 1.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input {
+  padding: 10px;
+  font-family: "Roboto Mono", monospace;
+  margin: 10px;
+  border: solid 2px black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  text-align: center;
+  margin-top: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.items {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  max-width: 575px;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: -20px;
 }
 
-.App-link {
-  color: #61dafb;
+.submit {
+  margin-top: 50px;
+  font-family: "Roboto Mono", monospace;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.errorText {
+  margin-top: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+.modal-body {
+  border: solid rgb(33, 33, 33);
+  max-width: 500px;
+}
+.afterText {
+  margin-top: 20px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
+.afterButton {
+  height: 54px;
+  width: 70%;
 }

@@ -1,0 +1,21 @@
+.footer {
+  background-color: rgb(250, 250, 250);
+  border-top: 2px solid palevioletred;
+  height: 90;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-content {
+  padding-top: 20px;
+}
+
+.footer-text {
+  font-family: "Signika", sans-serif;
+  margin-top: -10px;
+  text-align: center;
+}
