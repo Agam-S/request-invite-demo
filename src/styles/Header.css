@@ -1,6 +1,6 @@
 .header {
   background-color: rgb(250, 250, 250);
-  border-bottom: 2px solid palevioletred;
+  border-bottom: 2px solid purple;
   height: 50px;
   width: 100%;
   left: 0px;
@@ -10,7 +10,7 @@
 }
 .header-link {
   text-decoration: none;
-  color: palevioletred;
+  color: purple;
   font-size: x-large;
   font-family: "Signika", sans-serif;
   text-align: left;

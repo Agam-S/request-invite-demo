@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="header">
       <a href="/" className="header-link">
-        Broccoli & Co.
+        Example Brand
       </a>
     </header>
   );

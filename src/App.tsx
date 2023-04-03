@@ -38,7 +38,7 @@ function App() {
       setButton("Sending...Please wait");
       axios
         .post(
-          "https://us-central1-blinkapp-684c1.cloudfunctions.net/fakeAuth",
+          "link here",
           {
             name: data.name,
             email: data.email,
@@ -65,7 +65,7 @@ function App() {
         <section className="pageSection">
           <h1 className="h1Text">
             A better way <br></br>
-            to <span style={{ color: "palevioletred" }}>enjoy</span> every day
+            to <span style={{ color: "purple" }}>enjoy</span> every day
           </h1>
 
           <p className="p1Text">Be the first to know when we launch</p>

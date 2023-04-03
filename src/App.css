@@ -33,7 +33,7 @@
 .submit {
   font-family: "Roboto Mono", monospace;
   background-color: rgb(250, 250, 250);
-  border: 2px solid palevioletred !important;
+  border: 2px solid purple !important;
   color: rgb(33, 33, 33);
   display: block;
   font-weight: 700;
@@ -45,7 +45,7 @@
 }
 .button:hover,
 .submit:hover {
-  background-color: palevioletred;
+  background-color: purple;
   color: rgb(250, 250, 250);
 }
 .form {
