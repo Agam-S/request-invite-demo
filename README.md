@@ -1,4 +1,4 @@
-# Getting Started with Blinq Coding Challenge
+# Getting Started with Reqeust Invite Demo
 
 ### Below are instructions on how to build/use/test the challenge.
 
